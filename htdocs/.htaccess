@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+
+    # Custom URL aliases
+    RewriteRule ^home/?$ index.php [L]
+    RewriteRule ^home/?$ room.php [L]
+    RewriteRule ^team/?$ about-us.php [L]
+    RewriteRule ^menu/?$ food-menu-2.php [L]
+    RewriteRule ^blog/?$ blog.php [L]
+    RewriteRule ^login/?$ login.php [L]
+    RewriteRule ^add-card/?$  cart.php [L]
+    RewriteRule ^your-register/?$ register.php [L]
+    RewriteRule ^shoping/?$ shop.php [L]
+    RewriteRule ^book/?$ booking.php [L]
+    RewriteRule ^full-blog/?$ blog-single.php [L]
+    RewriteRule ^get-in-touch/?$ contact.php [L]
+
+    # Default rule: remove .php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.+)$ $1.php [L]
+</IfModule>
+ErrorDocument 404 /404.php

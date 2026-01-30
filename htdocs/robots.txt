@@ -1,0 +1,11 @@
+# robots.txt for tastybitefood.free.nf
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*?*
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://tastybitefood.free.nf/sitemap.xml

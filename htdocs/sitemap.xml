@@ -1,0 +1,34 @@
+RewriteEngine On
+
+# Home page
+RewriteRule ^home/?$ index.php [L]
+
+# Room page (use a different URL path, e.g., home/room)
+RewriteRule ^home/room/?$ room.php [L]
+
+# About us / Team page
+RewriteRule ^team/?$ about-us.php [L]
+
+# Food menu page
+RewriteRule ^menu/?$ food-menu-2.php [L]
+
+# Blog list
+RewriteRule ^blog/?$ blog.php [L]
+
+# Login page
+RewriteRule ^login/?$ login.php [L]
+
+# User registration page
+RewriteRule ^your-register/?$ register.php [L]
+
+# Shop page
+RewriteRule ^shoping/?$ shop.php [L]
+
+# Booking page
+RewriteRule ^book/?$ booking.php [L]
+
+# Single blog page
+RewriteRule ^full-blog/?$ blog-single.php [L]
+
+# Contact page
+RewriteRule ^get-in-touch/?$ contact.php [L]

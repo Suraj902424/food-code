@@ -1,0 +1,35 @@
+#imageprv1{
+	margin-top:10px;
+	margin-bottom:10px;	
+	background-color:#eeefef;
+	border:1px solid #666;
+	overflow:hidden;
+	text-align:center;
+	line-height:30px;
+	font-size:15px;
+}
+.common-fram{
+	margin-top:10px;
+	margin-bottom:10px;	
+	background-color:#eeefef;
+	border:1px solid #666;
+	overflow:hidden;
+	text-align:center;
+	line-height:30px;
+	font-size:15px;
+}
+
+.img-content-size-1{
+	height:120px;
+	width:120px;
+}
+.img-content-size-1 img{
+	width:120px;
+	height:120px;
+
+}
+.form-control.onactive{
+
+border-color: #66afe9 !important;
+box-shadow: 0 0 5px #66afe9;
+}
